@@ -1,0 +1,24 @@
+# ============================================================
+# PENTING soal versi
+# ------------------------------------------------------------
+# Berkas .pkl (model_nb, tfidf_vectorizer, lda_*) hanya dapat dimuat
+# dengan benar bila versi scikit-learn (dan numpy/scipy) di sini SAMA
+# dengan versi saat melatih model di Colab. Jalankan di Colab:
+#
+#   import sklearn, numpy, scipy; print(sklearn.__version__, numpy.__version__, scipy.__version__)
+#
+# lalu samakan tiga baris di bawah ini. Versi Sastrawi juga harus sama
+# agar hasil stemming identik dengan saat pelatihan.
+# ============================================================
+
+streamlit>=1.33
+pandas>=2.0
+plotly>=5.20
+joblib>=1.3
+
+# --- WAJIB DISAMAKAN DENGAN COLAB ---
+scikit-learn==1.5.2   # ganti sesuai sklearn.__version__ Anda
+numpy==1.26.4         # ganti sesuai numpy.__version__ Anda
+scipy==1.13.1         # ganti sesuai scipy.__version__ Anda
+
+Sastrawi==1.0.1
