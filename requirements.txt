@@ -15,6 +15,7 @@ streamlit
 pandas
 plotly
 joblib
+nltk
 
 # --- WAJIB DISAMAKAN DENGAN COLAB ---
 scikit-learn
